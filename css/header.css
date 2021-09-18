@@ -1,17 +1,20 @@
 .header{
-    display: flex;
-    align-items: center;
     background-color: #111;
-    padding: 0 19.2rem;
-    height: 4rem;
-    z-index: 1000;
-
+    height: 4rem;    
     position: fixed;
     top:0;
     left:0;
     width: 100%;
-
     opacity: .9;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-container{
+    display: flex;
+    width: 1200px;
 }
 
 .header-left, .main-nav-list, .header-right{
@@ -26,7 +29,7 @@
 }
 
 .main-nav-list li a{
-    padding-right: 3rem;
+    padding-right: 2.5rem;
     color: #fff;
     text-decoration: none;
     font-size: .9rem;
