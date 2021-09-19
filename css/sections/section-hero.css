@@ -39,11 +39,11 @@
     font-weight: bold;
 }
 
-.hero-h2{
+.hero-p{
     margin: .5rem 0;
 }
 
-.hero-h2 h2{
+.hero-p p{
     font-size: 1.6rem;
 }
 

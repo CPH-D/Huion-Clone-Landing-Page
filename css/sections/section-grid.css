@@ -1,0 +1,66 @@
+.section-grid{
+    background: #fff;
+    padding: 1.2rem;
+}
+
+.grid-4{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 1.2rem;
+    column-gap: 1.2rem;
+}
+
+.grid-container{
+    position: relative;
+}
+
+.grid-img{
+    width: 100%;
+}
+
+.grid-text-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    z-index: 5;
+    position: absolute;
+}
+
+.grid-box1{
+    top: 60%;
+}
+
+.grid-box2{
+    top: 60%;
+}
+
+.grid-box3{
+    top: 33%;
+}
+
+.grid-box4{
+    top: 5%;
+}
+
+.grid-text-box h2{
+    font-size: 2.4rem;
+    font-weight: bold;
+    padding: .8rem;
+}
+
+.grid-text-box p{
+    font-size: 1.2rem;
+    padding: .8rem;
+}
+
+.grid-text-box a{
+    font-size: 1rem;
+    padding: .4rem;
+    color: #00bfd6;
+}
+
+.dark-font{
+    color: #111;
+}
