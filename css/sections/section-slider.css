@@ -1,16 +1,15 @@
-.container{
+.section-slider{
     max-width: 1903px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
-.section-slider{
+.slider{
     margin-top: 4rem;
-    overflow: hidden;
 }
 
 .slides{
     display: flex;
-    margin: 0 auto;
 }
 
 .slides input{
@@ -18,16 +17,16 @@
 }
 
 .slide{
+    /* width: 20%; */
     width: 100%;
     height: 100%;
-    
-    /* width: 20%; */
-    transition: 2s;
+    transition: 0.5s;
 }
 
-.slide img{
-    object-fit: cover;
-}
+/* .slide img{
+    width: 100%;
+    height: 100%;
+} */
 
 /* ************************** */
 /* MANUAL SLIDE */
@@ -37,9 +36,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    /* margin-top: 45rem; */
-    margin: 45rem auto 0;
+    margin-top: 43.6rem;
 }
 
 .manual-btn{
@@ -90,15 +87,14 @@
 /* ************************** */
 .navigation-auto{
     position: absolute;
-    width: 100%;
     display: flex;
+    width: 100%;
     justify-content: center;
-    align-items: center;
-    /* margin-top: 45rem; */
-    margin: 45rem auto 0;
+    margin-top: 43.6rem;
 }
 
 .navigation-auto div{
+
     border: 1px solid #fff;
     padding: 5px;
     border-radius: 50%;
