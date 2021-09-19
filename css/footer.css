@@ -1,0 +1,100 @@
+footer{
+    color: white;
+}
+
+.footer-img{
+    position: relative;
+}
+
+.footer-img img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+}
+
+.footer{
+    width: 100%;
+    height: auto;
+    padding-bottom: 7rem;
+    z-index: 10;
+}
+
+.f-container{
+    width: 75rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid red;
+}
+
+.f-box1{
+    width: 100%;
+    font-size: .9rem;
+    color: #888;;
+    padding-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    line-height: 2rem;
+    z-index: 10;
+}
+
+.f-ul{
+    z-index: 10;
+}
+
+.f-ul span{
+    color: #fff;
+    margin-right: 12rem;
+    z-index: 10;
+}
+
+.f-ul ul li a{
+    color: #888;
+    z-index: 10;
+}
+
+.f-hover:hover{
+    color: #00bfd6;
+    z-index: 10;
+}
+
+.f-box2{
+    width: 100%;
+    margin: 2.4rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-box{
+    display: flex;
+    text-align: center;
+    position: relative;
+}
+
+.social-text{
+    margin-right: 1.4rem;
+}
+
+.social-icons{
+    position: absolute;
+    display: flex;
+    font-size: 1.6rem;
+    top: -12%;
+    left: 100%;
+}
+
+.social-icons i{
+    margin: 0 .4rem;
+    color: #888;
+}
+
+.social-icons i:hover{
+    margin: 0 .4rem;
+    color: #00bfd6;
+}
+
+.input-box{
+    position: relative;
+}
