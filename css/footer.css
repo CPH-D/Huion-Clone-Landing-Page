@@ -26,7 +26,7 @@ footer{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .f-box1{
@@ -54,7 +54,7 @@ footer{
 }
 
 .f-ul ul li a{
-    color: #888;
+    color: #BBB;
     z-index: 10;
 }
 
@@ -158,23 +158,25 @@ footer{
     right: 25%;
 }
 
-/* .newsletter-form input{
-    height: 2rem;
-    width: 75%;
-    background: #111;
-    border: 1px solid #888;
+.f-box3, .f-box4{
+    width: 100%;
 }
 
-.check-box{
-    height: 2rem;
-    border: 1px solid #888;
+.box3-container{
+    width: 30%;
+    display: flex;
 }
 
-.fa-envelope{
+.box3-container div{
+    padding-right: 3rem;
+}
+
+.box3-container div a{
+    font-size: .8rem;
     color: #888;
 }
 
-.fa-check{
-    font-size: 1.2rem;
+.f-box4 p{
+    font-size: .8rem;
     color: #888;
-} */
+}
