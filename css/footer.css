@@ -21,7 +21,7 @@ footer{
 }
 
 .f-container{
-    width: 75rem;
+    max-width: 75rem;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -35,19 +35,23 @@ footer{
     color: #888;;
     padding-top: 4rem;
     display: flex;
-    justify-content: space-between;
     line-height: 2rem;
     z-index: 10;
 }
 
 .f-ul{
+    width: 100%;
     z-index: 10;
+    margin-right: 12%;
 }
 
 .f-ul span{
     color: #fff;
-    margin-right: 12rem;
     z-index: 10;
+}
+
+.f-ul ul, .f-ul ul li{
+    width: 100%;
 }
 
 .f-ul ul li a{
