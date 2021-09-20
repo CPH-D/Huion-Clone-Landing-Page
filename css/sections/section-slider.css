@@ -6,14 +6,12 @@
 
 .slider{
     margin-top: 4rem;
-}
-
-.slides{
     display: flex;
     position: relative;
+    max-width: 1903px;
 }
 
-.slides input{
+.slider input{
     display: none;
 }
 
@@ -37,7 +35,8 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 43.6rem;
+    /* margin-top: 43.6rem; */
+    margin-top: 37%;
 }
 
 .manual-btn{
@@ -88,10 +87,11 @@
 /* ************************** */
 .navigation-auto{
     position: absolute;
-    display: flex;
     width: 100%;
+    display: flex;
     justify-content: center;
-    margin-top: 43.6rem;
+    /* margin-top: 43.6rem; */
+    margin-top: 37%;
 }
 
 .navigation-auto div{
