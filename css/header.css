@@ -1,20 +1,26 @@
 .header{
-    background-color: #111;
-    height: 4rem;    
+    height: 4rem;
     position: fixed;
-    top:0;
-    left:0;
     width: 100%;
-    opacity: .85;
     z-index: 1000;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.header-invis{
+    background-color: #000;
+    height: 4rem;
+    width: 100%;
+    opacity: .8;
+    z-index: 2000;
+    position: absolute;
+}
+
 .header-container{
     display: flex;
     width: 1200px;
+    z-index: 3000;
 }
 
 .header-left, .main-nav-list, .header-right{
