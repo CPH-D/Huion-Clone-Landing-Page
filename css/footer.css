@@ -42,7 +42,6 @@ footer{
 .f-ul{
     width: 100%;
     z-index: 10;
-    margin-right: 12%;
 }
 
 .f-ul span{
@@ -66,6 +65,7 @@ footer{
 
 .f-box2{
     width: 100%;
+    height: 4rem;
     margin: 2.4rem 0;
     display: flex;
     justify-content: space-between;
@@ -77,16 +77,12 @@ footer{
     position: relative;
 }
 
-.social-text{
-    margin-right: 1.4rem;
-}
-
 .social-icons{
     position: absolute;
     display: flex;
     font-size: 1.6rem;
-    top: -12%;
-    left: 100%;
+    top: -5%;
+    left: 125%;
 }
 
 .social-icons i{
@@ -99,6 +95,86 @@ footer{
     color: #00bfd6;
 }
 
-.input-box{
+.newsletter-box{
+    width: 24%;
     position: relative;
 }
+
+.newsletter-text{
+    margin-bottom: 1rem;
+}
+
+.newsletter-text p{
+    color: #888;
+    font-size: .9rem;
+}
+
+.text{
+    max-width: 17.8rem;
+    height: 38px;
+    border: 1px solid #888;
+    border-radius: 3px;
+    position: relative;
+    z-index: 5;
+}
+
+.input{
+    background: none;
+    padding: 0 0 0 16%;
+    border: none;
+    height: 38px;
+    line-height: 41px;
+    width: 71%;
+    color: #888;
+    outline: none;
+}
+
+.fa-envelope{
+    color: #888;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 20%;
+    left: 3%;
+}
+
+.sub{
+    width: 13%;
+    border: none;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 5;
+    border-left: 1px solid #888;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.fa-check{
+    color: #00bfd6;
+    font-size: 1rem;
+    position: absolute;
+    top: 25%;
+    right: 25%;
+}
+
+/* .newsletter-form input{
+    height: 2rem;
+    width: 75%;
+    background: #111;
+    border: 1px solid #888;
+}
+
+.check-box{
+    height: 2rem;
+    border: 1px solid #888;
+}
+
+.fa-envelope{
+    color: #888;
+}
+
+.fa-check{
+    font-size: 1.2rem;
+    color: #888;
+} */
