@@ -19,8 +19,8 @@
 }
 
 .msg-circle{
-    width: 8px;
-    height: 8px;
+    width: 1rem;
+    height: 1rem;
     border-radius: 50%;
     background-color: #238bf9;
     border: 1px solid #fff;
