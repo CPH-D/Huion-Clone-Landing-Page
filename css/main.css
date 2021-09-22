@@ -1,4 +1,4 @@
-@import "reset.css";
+@import "style.css";
 @import "header.css";
 @import "dropdown.css";
 @import "message-us.css";
@@ -8,70 +8,8 @@
 @import "footer.css";
 
 @media (max-width: 48em){
-    html{
-        font-size: 56.25%;
-    }
-
-    .header-container{
-        width: 768px;
-        margin-left: 1.2rem;
-    }
-
-    .main-nav-list li a{
-        font-size: 1.1rem;
-        margin-right: .4rem;
-    }
-
-    .logo{
-        width: 6.5rem;
-    }
-
-    .navigation-manual{
-        margin-top: 36%;
-    }
-
-    .manual-btn:not(:last-child){
-        margin-right: 3.2rem;
-    }
-
-    .navigation-auto{
-        margin-top: 36%;
-    }
-
-    .navigation-auto div:not(:last-child){
-        margin-right: 3.2rem;
-    }
-
-    .section-msg-us{
-        top: 94%;
-        left: 74%;
-    }
-
-    .footer-img img{
-        width: 70%;
-    }
-
-    .newsletter-box{
-        width: 24%;
-    }
-
 
 }
 
 @media (max-width: 24em){
-    .navigation-manual{
-        margin-top: 33%;
-    }
-
-    .manual-btn:not(:last-child){
-        margin-right: 4.8rem;
-    }
-
-    .navigation-auto{
-        margin-top: 33%;
-    }
-
-    .navigation-auto div:not(:last-child){
-        margin-right: 4.8rem;
-    }
 }
