@@ -17,7 +17,7 @@ footer{
 .footer{
     width: 100%;
     height: auto;
-    padding-bottom: 7rem;
+    padding: 7rem 0;
     z-index: 100;
 }
 
@@ -32,8 +32,7 @@ footer{
 .f-box1{
     width: 100%;
     font-size: .9rem;
-    color: #888;;
-    padding-top: 7rem;
+    color: #888;
     display: flex;
     line-height: 2rem;
     z-index: 100;

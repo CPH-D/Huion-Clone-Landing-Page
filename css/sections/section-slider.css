@@ -30,12 +30,12 @@
 /* ************************** */
 /* MANUAL SLIDE */
 /* ************************** */
-.navigation-manual{
+.navigation-manual,
+.navigation-auto{
     position: absolute;
     width: 100%;
     display: flex;
     justify-content: center;
-    /* margin-top: 43.6rem; */
     margin-top: 38%;
 }
 
@@ -85,15 +85,6 @@
 /* ************************** */
 /* AUTOMATIC SLIDE */
 /* ************************** */
-.navigation-auto{
-    position: absolute;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    /* margin-top: 43.6rem; */
-    margin-top: 38%;
-}
-
 .navigation-auto div{
     border: 1px solid #fff;
     padding: 5px;
