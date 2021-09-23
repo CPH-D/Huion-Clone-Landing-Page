@@ -29,3 +29,8 @@ ul{
     list-style: none;
 }
 
+.section-divider{
+    height: 1.2rem;
+    background-color: #fff;
+     margin: 0;
+}
