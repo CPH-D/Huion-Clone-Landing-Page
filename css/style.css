@@ -13,7 +13,7 @@ body{
     font-family: sans-serif;
     line-height: 1;
     font-weight: 400;
-    background-color: #000;
+    background-color: #111;
     overflow-x: hidden;
 }
 
@@ -29,28 +29,3 @@ ul{
     list-style: none;
 }
 
-/* ****************************** */
-        /* HEADER STYLES */
-/* ****************************** */
-
-.header-header{
-    font-size: 1.4rem;
-    color: #fff;
-    margin-right: 4.1rem;
-}
-
-.footer-header{
-    color: #fff;
-}
-
-.footer-medium-text{
-    color: #888;
-}
-
-.footer-small-text{
-    color: #888;
-}
-
-.footer-input-text{
-    color: #888;
-}

@@ -36,6 +36,12 @@
     margin-right: 4rem;
 }
 
+.header-header{
+    font-size: 1.4rem;
+    color: #fff;
+    margin-right: 4.1rem;
+}
+
 .header-header:hover{
     color: #13bfd6;
 }
