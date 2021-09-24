@@ -175,14 +175,6 @@
     html{
         font-size: 56.25%;
     }
-
-    .header{
-        height: 4rem;
-    }
-
-    .header-invis{
-        height: 4rem;
-    }
     
     .header-container{
         display: none;
@@ -198,7 +190,7 @@
     }
 
     .slider{
-        margin-top: 4rem;
+        margin-top: 6rem;
     }
 
     .navigation-manual,
