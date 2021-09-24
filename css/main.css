@@ -7,6 +7,17 @@
 @import "sections/section-hero.css";
 @import "sections/section-grid.css";
 @import "footer.css";
+@import "footer-mobile.css";
+
+@media (min-width: 48rem){
+    .header-mobile-container{
+        display: none;
+    }
+
+    .footer-mobile-container{
+        display: none;
+    }
+}
 
 @media (max-width: 48em){
     html{
@@ -154,6 +165,10 @@
     .header-mobile-container{
         display: none;
     }
+
+    .footer-mobile-container{
+        display: none;
+    }
 }
 
 @media (max-width: 24em){
@@ -178,7 +193,7 @@
     }
 
     .section-msg-us{
-        top: 93%;
+        top: 93.5%;
         left: 54%;
     }
 
@@ -285,7 +300,19 @@
         font-size: 1.4rem;
     }
 
-    footer{
+    .footer-img img{
         display: none;
+    }
+
+    .footer{
+        padding: 1rem;
+    }
+
+    .footer-container{
+        display: none;
+    }
+
+    .footer-mobile-container{
+        display: block;
     }
 }

@@ -1,6 +1,6 @@
 .header-mobile-container{
     display: flex;
-    width: 39rem;
+    width: 100%;
     height: 4rem;
     z-index: 3000;
     /* border: 1px solid white; */
