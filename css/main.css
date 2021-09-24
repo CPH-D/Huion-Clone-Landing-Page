@@ -1,5 +1,6 @@
 @import "style.css";
 @import "header.css";
+@import "header-mobile.css";
 @import "dropdown.css";
 @import "message-us.css";
 @import "sections/section-slider.css";
@@ -153,6 +154,134 @@
 
 @media (max-width: 24em){
     html{
-        font-size: 50%;
+        font-size: 56.25%;
+    }
+
+    .header{
+        height: 4rem;
+    }
+
+    .header-invis{
+        height: 4rem;
+    }
+    
+    .header-container{
+        display: none;
+    }
+
+    .header-mobile-container{
+        display: block;
+    }
+
+    .section-msg-us{
+        top: 93%;
+        left: 54%;
+    }
+
+    .slider{
+        margin-top: 4rem;
+    }
+
+    .navigation-manual,
+    .navigation-auto{
+        margin-top: 33%;
+    }
+
+    .manual-btn:not(:last-child),
+    .navigation-auto div:not(:last-child){
+        margin-right: 4rem;
+    }
+
+    .manual-btn,
+    .navigation-auto div{
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+
+    .hero-header1{
+        font-size: 2.4rem;
+    }
+
+    .plus-span{
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 0.2rem;
+        background: #fff;
+        color: #111;
+        font-size: 1.2rem;
+        padding: .4rem .6rem;
+        border-radius: 2px;
+    }
+
+    .section-hero1{
+        padding-bottom: 1rem;
+    }
+
+    .hero-header2{
+        margin-top: 1rem;
+        font-size: 1.6rem;
+    }
+
+    .hero-link{
+        font-size: 1.2rem;
+    }
+
+    .hero-links-container{
+        margin: 1rem 0 2.5rem;
+    }
+
+    .hero-text-container1{
+        margin-top: 3rem;
+    }
+
+    .section-hero2{
+        padding: 0rem 0 13rem
+    }
+
+    .hero-img.hero-mobile-img2{
+        width: 65%;
+        margin-left: 9rem;
+    }
+
+    .hero-text-container2{
+        margin-top: 15.5rem;
+    }
+
+    .hero-links-container.bottom{
+        margin-bottom: 3rem;
+    }
+
+    .hero-link{
+        margin: 0 1.5rem;
+    }
+
+    .section-grid{
+        padding: 1rem 0;
+    }
+
+    .grid-4{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .hero-grid-link{
+        font-size: 1.4rem;
+    }
+
+    .hero-grid-header1{
+        font-size: 2.4rem;
+        margin-bottom: 1rem;
+    }
+    
+    .hero-grid-header2{
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+    }
+    
+    .hero-grid-link-play{
+        font-size: 1.4rem;
+    }
+
+    footer{
+        display: none;
     }
 }

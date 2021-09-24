@@ -1,0 +1,29 @@
+.header-mobile-container{
+    display: flex;
+    width: 39rem;
+    height: 4rem;
+    z-index: 3000;
+    /* border: 1px solid white; */
+}
+
+.header-mobile-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: absolute;
+    top: 0; */
+    padding: .5rem 0 0;
+}
+
+.menu-icon{
+    color: white;
+    font-size: 2.4rem;
+    /* margin: auto 0; */
+}
+
+.mobile-logo{
+    height: 25%;
+    width: 25%;
+    /* margin: auto; */
+}
+

@@ -1,4 +1,3 @@
-
 .header{
     position: fixed;
     width: 100%;
@@ -24,6 +23,10 @@
     height: 6rem;
     z-index: 3000;
     /* border: 1px solid white; */
+}
+
+.header-mobile-container{
+    display: none;
 }
 
 .header-left, .header-right{
