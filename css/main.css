@@ -150,6 +150,10 @@
     .box3-container{
         width: 50%;
     }
+
+    .header-mobile-container{
+        display: none;
+    }
 }
 
 @media (max-width: 24em){
